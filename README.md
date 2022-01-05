@@ -1,20 +1,77 @@
-## Welcome to GitHub Pages
+# Yagmur Ozturk
 
-You can use the [editor on GitHub](https://github.com/yagmur-ozturk/yagmur-ozturk.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+![profil](/images/photo_profil.jpg) PhD Student, Teaching Assistant, Prez association ThèsEnvies
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Thesis
+--------------
 
-### Markdown
+#### Title 
+_Comparative Morphosemantics of French and Turkish: from Theoretical Description to a Semantic Decomposition Tool_
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Abstract
+Despite the typological differences between French and Turkish, we make the assumption that comparison between these two languages can be made in terms of meaning and meaning construction processes. Thus, our theoretical objectives are as follows: to develop "an inventory of meanings", supported by non-lexical morphemes (autonomous and non-autonomous) in each of these languages ; compare these inventories through processes of deconstruction and reconstruction of meanings ; and establish correspondences and divergences between these inventories. The applicative objective is to create a tool used in computer-assisted language learning by both French speakers.
 
-```markdown
-Syntax highlighted code block
+#### Supervisors 
+[Izabella Thomas](url)
 
-# Header 1
-## Header 2
-### Header 3
+[Snejana Gadjeva](url)
 
+#### Compos
+- CRIT - Centre Tesnière
+
+- LECLA
+
+- UFR SLHS
+
+#### Funding
+YTB
+
+Teachings
+--------------
+
+#### Introduction to NLP
+
+#### Linguistic Theories and NLP
+
+#### Terminology and NLP (?)
+
+Events and Association
+------------------
+
+#### Events
+Study Seminar Co-organisation - TEDonnées 3rd edition
+
+Seminar Participation - Centre Tesnière
+
+Shared Task Co-organisation - FinCausal2020
+
+Study Seminar Co-organisation - TEDonnées 2nd Edition
+
+#### Association
+President of ThèsEnvies since December 2021
+
+Member of UTF (Union des Turcs de France)
+
+Publications
+------------
+
+FinCausal
+
+Data Processing and Annotation Schemes for FinCausal Shared Task Mariko et al 2020 arXiv:2012.02498 [cs CL]
+
+
+Contact info
+------------
+
+yagmur.ozturk@edu.univ-fcomte.fr
+Université de Franche-Comté
+30 rue Mégevand
+25030, Besançon Cedex
+France
+
+LinkedIn
+Twitter
+Alumni
 - Bulleted
 - List
 
@@ -26,12 +83,3 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yagmur-ozturk/yagmur-ozturk.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
