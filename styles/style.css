@@ -66,7 +66,7 @@
 /* Column container */
 .row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 /* Create two unequal columns that sits next to each other */
@@ -113,7 +113,7 @@ box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
   .row {
-    flex-direction: row;
+    flex-direction: column;
   }
 }
 
