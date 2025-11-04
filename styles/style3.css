@@ -1,0 +1,199 @@
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu&family=League+Spartan&display=swap);
+
+/* Style */
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Style navigation bar*/
+.navbar {
+  background-color: #3ba5d6 !important;
+  font-size : 18px;
+  font-family: 'Ubuntu', sans-serif;
+  transition: background-color 0.3s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+
+/* Style the navigation bar links */
+.navbar a {
+    color: white !important; /* White text color */
+    padding: 10px 16px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+  }
+
+.navbar a:hover {
+  color: #023047 !important;
+}
+
+.navbar-nav {
+    flex: 1;
+    justify-content: flex-start;
+  }
+
+/* Language */
+.navbar-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+.navbar-text .btn-group .btn {
+    font-size: 0.875rem;
+    padding: 4px 6px;
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+  }
+
+.navbar-text .btn-group .btn img {
+    width: 22px;
+    height: 22px;
+  }
+
+/* Arrow none */
+.nav-item.dropdown > a::after {
+    display: none !important;
+  }
+
+.nav-item.dropdown:hover > .dropdown-menu {
+    display: block;
+    opacity: 1 !important;
+    transform: translateY(0);
+    visibility: visible !important;
+    pointer-events: auto;
+  }
+
+.dropdown-menu {
+    background-color: #3db0e4;
+    display: none;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+.dropdown-item {
+    color: #ffffff !important;
+    padding: 10px 20px;
+    display: block;
+  }
+  
+.dropdown-item:hover {
+    background-color: #3db0e4;
+    color: #023047 !important;
+  }
+
+/* Style du header avec votre image personnelle */
+.header {
+    background-image: url('../images/index_background.jpeg'); /* Remplacer par le chemin de votre image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 150px 0 100px 0;
+    color: #ffffff;
+    position: relative;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.header h1 {
+  position: relative;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Centrage de la div .news */
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px; /* Limite la largeur de la section pour une belle présentation */
+  }
+  
+/* Style des sections principales */
+section {
+  margin-top: 80px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #023047;
+  font-size: 1.8rem;
+}
+
+/* Style du footer */
+.footer-basic {
+  background-color: #023047;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.footer-basic p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.footer-basic a {
+  color: #8ecae6;
+  text-decoration: none;
+}
+
+.footer-basic a:hover {
+  color: #219ebc;
+}
+
+/* Style des animations de carte */
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.15);
+}
+
+/* Style responsive */
+@media (max-width: 768px) {
+    .header {
+      padding: 100px 0 80px 0;
+    }
+  
+    section {
+      padding: 15px;
+    }
+  
+    .footer-basic {
+      text-align: center;
+    }
+  
+    .navbar-text .btn-group .btn {
+      font-size: 0.75rem;
+      padding: 3px 8px;
+    }
+  }
