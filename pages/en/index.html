@@ -74,12 +74,17 @@
 					<!-- <p>No events.</p> -->
 					<br>
 					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="../../images/zadar.jpg" alt="Card image cap">
+						<img class="card-img-top" src="../../images/soutenance.jpg" alt="Card image cap">
 						<div class="card-body">
-							<b class="card-title">Symposium – 11th Zadar Linguistic Forum</b>
-							<h6>29th October - University of Zadar, Zadar, Croatia</h6>
-							<p class="card-text">Turkish noun-to-noun derivational morphemes in multilingual perspective: description and classification</p>
-							<a href="https://www.dropbox.com/scl/fi/1nzbcbrkj1dxxz85zj1z8/ZLF2025_book_of_abstracts.pdf?rlkey=dv16h0hea11ndcc0yxsleenti&e=1&st=oxmg1fn2&dl=0" class="btn btn-primary">Book of abstracts</a>
+							<b class="card-title">PhD viva</b>
+							<h6>3rd April - Université Marie et Louis Pasteur, Besançon</h6>
+							<p class="card-text" style="text-align: justify;">The viva will start at 2 pm and will be open to the public in Grand Salon.<br><br>
+							<strong>Jury:</strong><br>
+							Prof. Fiammetta Namer, Université de Lorraine (Rapporteur)<br>
+							Prof. Mehmet-Ali Akıncı, Université de Rouen Normandie (Rapporteur)<br>
+							Prof. Nesrin Deliktaşlı, Istanbul University (Examiner)<br>
+							Dr Izabella Thomas, Université Marie et Louis Pasteur (Supervisor)<br>
+							Dr Snejana Gadjeva, INALCO (Co-supervisor)</p>
 						</div>
 					</div>
 					<br>
@@ -194,22 +199,13 @@
 				
 				<h4>Abstract</h4>
 				
-				<p>
-				In terms of morphological resources, Turkish turns out to be an underresourced language in a Natural Language Processing and linguistic perspective. 
-				There are not enough exhaustive resources that systematically describe Turkish derivational morphology, especially from a semantic aspect. 
-				The research aims to describe Turkish derivational morphology, limited to the scope of noun-to-noun derivation. Based on the hypothesis that word 
-				formation rules can be systematically described at both semantic and formal levels, our goal is to:
-				<ul>
-					<li>create and adapt a semantic ontology for morpheme descriptions,</li>
-					<li>build an inventory of morphemes with a formalised description including their semantic aspects.</li>
-				</ul>
-				From an applicative point of view, our goal is to create extendible and interoperable resources for various tasks related to NLP and linguistics, such as:
-				<ul>
-					<li>machine translation,</li>
-					<li>creation and alignment of bilingual corpora,</li>
-					<li>computer-assisted language learning.</li>
-				</ul>
-				This approach, based on the establishment of a repertoire of meanings, could be possibly extended to various word-class morphemes and/or other languages that do not have such kinds of tools.
+				<p style="text-align: justify; text-indent: 2em;">
+				Turkish derivational morphology exhibits remarkable complexity: as an agglutinative language, Turkish allows multiple suffixes to interact systematically to build meaning. Despite this rich system, existing sources remain fragmented and inconsistent in their coverage of derivational morphemes. Current inventories rely on flat, list-based structures that cannot capture which morphemes derive nouns from nouns (N-to-N) or what semantic values they encode.
+				<br><br>To address this gap, this thesis tackles a foundational challenge: how can we move beyond existing morpheme inventories to enable morphosemantic analysis and formally model derivational semantics in a computationally tractable way? To answer this question, we develop two interconnected resources: DerivBaseTR, a multidimensional morphological database, and Semantürk, a semantic ontology for Turkish derivation.
+				<br><br>We first cross-reference fifteen heterogeneous sources (grammars, academic studies, and language-learning materials) to build UNITuM, a unified inventory of 131 morphemes traditionally classified as N-to-N in Turkish. Because those conflate N-to-N derivation with other categories (e.g., adjectives, adverbs), we apply three systematic filters to isolate genuine N-to-N morphemes: grammatical category tests, productivity thresholds, and semantic transparency criteria, resulting in a selection of 36 N-to-N morphemes.
+				<br><br>For semantic annotation, we develop Semantürk by adapting Démonette-2's ontological framework (Huguin et al., 2023) to Turkish morphemes. This adaptation, informed by evaluation experiments, refines semantic categories using consolidated descriptions from UNITuM. We define 40 additional semantic categories beyond those in Démonette-2 and validate them through a controlled annotation experiment on a custom corpus of 100 derived nouns, each presented with definitional cues.
+				<br><br>The annotation experiments we conduct demonstrate Semantürk's strong reliability: inter-annotator agreement remains consistently high (Kα ≈ 0.83) with strong annotator confidence (mean: 2.89/3), indicating that the ontology's categories are both interpretable and robust. Unlike flat tagsets, Semantürk offers a hierarchically structured and OWL 2-compliant ontology, enabling both logical reasoning and empirical annotation. DerivBaseTR, a relational database structured around four linkable dimensions (morphemes, lexical instantiations, semantic annotations, and bibliographic documentation) implements these 36 morphemes with their Semantürk annotations in a multidimensional architecture that transcends the simple linear organisation of previous resources. This structure enables diverse empirical queries that extract concrete insights, revealing, for instance, a strong correlation between semantic polysemy and morphological productivity: morphemes expressing meanings across multiple semantic categories tend to produce more derivatives.
+				<br><br>This work addresses fundamental questions about derivational morphology's position between lexicon and syntax. Beyond Turkish linguistics, DerivBaseTR and Semantürk establish methodological principles for creating sustainable, reusable linguistic resources that ensure data reusability across diverse research contexts and theoretical perspectives, opening avenues for applications from automatic morpheme analysis to semantic parsing in morphologically rich languages.
 				</p>
 			</div>
 		  

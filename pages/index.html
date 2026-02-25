@@ -94,12 +94,17 @@
 					</div> -->
 					<br>
 					<div class="card" style="width: 18rem;">
-						<img class="card-img-top" src="../images/zadar.jpg" alt="Card image cap">
+						<img class="card-img-top" src="../images/soutenance.jpg" alt="Card image cap">
 						<div class="card-body">
-							<b class="card-title">Symposium – 11th Zadar Linguistic Forum</b>
-							<h6>29 octobre - Université de Zadar, Zadar, Croatie</h6>
-							<p class="card-text">Turkish noun-to-noun derivational morphemes in multilingual perspective: description and classification</p>
-							<a href="https://www.dropbox.com/scl/fi/1nzbcbrkj1dxxz85zj1z8/ZLF2025_book_of_abstracts.pdf?rlkey=dv16h0hea11ndcc0yxsleenti&e=1&st=oxmg1fn2&dl=0" class="btn btn-primary">Résumé</a>
+							<b class="card-title">Soutenance de thèse</b>
+							<h6>Vendredi 03 avril - Université Marie et Louis Pasteur, Besançon</h6>
+							<p class="card-text">La soutenance débutera à 14h au Grand Salon et sera ouvert au public.
+							<br><br><strong>Les membres du jury :</strong><br>
+							Prof. Fiammetta Namer, Université de Lorraine (Rapporteuse)<br>
+							Prof. Mehmet-Ali Akıncı, Université de Rouen Normandie (Rapporteur)<br>
+							Prof. Nesrin Deliktaşlı, Université d’Istanbul (Examineuse)<br>
+							Dr Izabella Thomas, Université Marie et Louis Pasteur (Directrice)<br>
+							Dr Snejana Gadjeva, INALCO (Co-directrice)</p>
 						</div>
 					</div>
 					<br>
@@ -190,23 +195,13 @@
 				
 				<h4>Résumé de thèse</h4>
 				
-				<p>
-				En termes de ressources morphologiques, le turc s’avère être une langue sous-dotée en Traitement Automatique des Langues et en linguistique. 
-				Il n’existe pas de ressources exhaustives décrivant de manière formelle la dérivation nominale en turc. Ceci est d’autant plus marquant d’un point de vue morphosémantique. 
-				Ainsi, l’objectif de cette thèse est de décrire la morphologie dérivationnelle de noms à noms de la langue turque. En se basant sur l’hypothèse que la formation des mots en turc 
-				peut être décrite formellement au niveau des significations et des procédés de construction de significations, nous avons pour but de :
-				<ul>
-					<li>élaborer une ontologie de sens, portés par les morphèmes (non-autonomes),</li>
-					<li>élaborer un inventaire de morphèmes avec une description formelle complétée par l’ontologie de sens.</li>
-				</ul>
-				A partir de cette description formelle, notre objectif applicatif est de créer des ressources exploitables en linguistique et en TAL 
-				qui seraient utilisées dans diverses tâches telles que :
-				<ul>
-					<li>traduction automatique,</li>
-					<li>création et alignement des corpus bilingues,</li>
-					<li>apprentissage du turc assisté par ordinateur.</li>
-				</ul>
-				Cette approche, fondée sur l’établissement d'un répertoire de significations pourrait être élargie vers des morphèmes d'autres catégories grammaticales que le nom et/ou vers d’autres langues ne disposant pas d’outils semblables. 
+				<p style="text-align: justify; text-indent: 2em;">
+				La morphologie dérivationnelle du turc présente une complexité remarquable : langue agglutinante, le turc permet l’enchaînement systématique de multiples suffixes pour construire le sens. Malgré la richesse de ce système, les sources existantes restent incohérentes dans leur traitement des morphèmes dérivationnels. Les inventaires, majoritairement organisés sous forme de listes, ne permettent ni d’identifier précisément les morphèmes dérivant des noms à partir de noms (N-to-N), ni de rendre compte des valeurs sémantiques qu’ils véhiculent.
+				<br><br>Pour combler cette lacune, cette thèse s’attaque à un défi central : comment dépasser les inventaires de morphèmes existants pour passer d’une description à une modélisation morphosémantique formelle, exploitable en TAL ? Pour y répondre, nous proposons deux ressources interconnectées : DerivBaseTR, une base de données morphologique multidimensionnelle, et Semantürk, une ontologie sémantique dédiée à la dérivation en turc.
+				<br><br>Nous commençons par croiser quinze sources hétérogènes (grammaires, travaux académiques et supports d’apprentissage) afin de constituer UNITuM, un inventaire unifié de 131 morphèmes traditionnellement classés comme N-to-N. Ces sources intégrant souvent des morphèmes d’autres catégories (p. ex. adjectivales), nous appliquons trois filtres systématiques fondés sur la catégorie grammaticale, la productivité et la transparence sémantique, aboutissant à une sélection de 36 morphèmes N-to-N.
+				<br><br>Pour l’annotation sémantique, nous développons Semantürk en adaptant le cadre ontologique de Démonette-2 (Huguin et al., 2023) aux morphèmes du turc. Cette adaptation, guidée par des expériences d’évaluation, permet d’affiner les catégories sémantiques à partir des descriptions issues de UNITuM. Nous définissons ainsi 40 catégories sémantiques supplémentaires, intégrées à Démonette-2, et validées au moyen d’une expérience d’annotation sur un corpus de 100 noms dérivés.
+				<br><br>Les résultats mettent en évidence la fiabilité de Semantürk : l’accord inter-annotateurs est élevé (Kα ≈ 0,83), et le niveau de confiance important (2,89/3), attestant du caractère interprétable et robuste des catégories. Conforme au standard OWL 2, Semantürk propose une ontologie hiérarchiquement structurée, permettant à la fois le raisonnement logique et l’annotation empirique. DerivBaseTR, structurée autour de quatre dimensions interconnectées (morphèmes, instanciations lexicales, annotations sémantiques, documentation), implémente ces 36 morphèmes et leurs annotations sémantique. Cette architecture multidimensionnelle dépasse l’organisation linéaire des sources traditionnelles et autorise des requêtes empiriques conduisant à l’extraction de résultats concrets. Une requête met ainsi en évidence une forte corrélation entre polysémie sémantique et productivité morphologique : les morphèmes associés à plusieurs catégories sémantiques présentent une productivité dérivationnelle plus élevée.
+				<br><br>Ce travail interroge interroge la place de la morphologie dérivationnelle entre lexique et syntaxe. Au-delà de la linguistique du turc, cette thèse propose des principes méthodologiques pour la création de ressources linguistiques durables et réutilisables, ouvrant des perspectives d’application allant de l’analyse automatique des morphèmes au traitement sémantique dans les langues à morphologie riche.
 				</p>
 			</div>
 		  
